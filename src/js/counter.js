@@ -12,8 +12,8 @@ function displayTime(initial) {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("timer").innerHTML = days + " Days " + hours + " Hours "
-  + minutes + " Minutes " + seconds + " Seconds ";
+  document.getElementById("timer").innerHTML = days + "D " + hours + "H "
+  + minutes + "M " + seconds + "S";
 }
 
 // Immediately call the function to display when the page loads.
